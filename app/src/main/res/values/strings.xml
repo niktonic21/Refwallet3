@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Ref wallet</string>
+
+    <string name="vitaj">Vitajte  v aplikácií určenej pre rozhodcov SZĽH</string>
+    <string name="zoznam_zapasov">Zoznam zápasov</string>
+    <string name="stadiony">Štadiony</string>
+    <string name="statistiky">Štatistiky</string>
+    <string name="vstup">Vstúpte</string>
+    <string name="urob_foto">Urob foto zo zápasu</string>
+
+    <string name="cz">Číslo záp.</string>
+    <string name="liga">Liga</string>
+    <string name="datum">Dátum</string>
+    <string name="stadion">Štadión</string>
+    <string name="domaci">Domáci</string>
+    <string name="hostia">Hostia</string>
+    <string name="hr1">HR1</string>
+    <string name="hr2">HR2</string>
+    <string name="cr1">ČR1</string>
+    <string name="cr2">ČR2</string>
+    <string name="instr">Inštruktor</string>
+    <string name="video">Video R.</string>
+    <string name="odch">Čas odch.</string>
+    <string name="prich">Čas prich.</string>
+    <string name="zmesta">Z mesta</string>
+    <string name="domesta">Do mesta</string>
+    <string name="pausal">Paušál</string>
+    <string name="stravne">Stravné</string>
+    <string name="cestovne">Cestovné</string>
+    <string name="spolu">Spolu</string>
+    <string name="zadaj">Zadaj paušál</string>
+
+    <string name="najdi_stad">Nájdi štadión</string>
+    <string name="moja_poloha">Ukáž moju polohu</string>
+
+    <string name="odfot">ODFOŤ</string>
+
+    <string name="celkove_statis">Celkové štatistiky zápasov         </string>
+    <string name="stravne_spolu">Stravné spolu:</string>
+    <string name="cestovne_spolu">Cestovné spolu:</string>
+    <string name="pausal_spolu">Paušál spolu:</string>
+    <string name="suma_spolu">Zarobené spolu:</string>
+    <string name="pocet_zap">Počet zápasov:</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_vyber">Vyber</string>
+    <string name="title_activity_zoznam">Zoznam zápasov</string>
+    <string name="title_activity_stadion">Štadióny</string>
+    <string name="title_activity_statistiky">Statistiky</string>
+    <string name="title_activity_detail_zapas">Detail zapasu</string>
+    <string name="title_activity_pridaj_zapas">Pridaj zápas</string>
+
+    <string name="title_activity_foto">Foto</string>
+    <string name="title_activity_foto_detail">Detail fotky</string>
+    <string name="title_activity_take_photo">TakePhotoActivity</string>
+    <string name="title_activity_graf">Graf</string>
+
+    <string name="hello_world">Hello world!</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank <fragment></fragment></string>
+</resources>

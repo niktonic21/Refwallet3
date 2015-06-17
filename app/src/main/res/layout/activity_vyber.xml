@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="sk.upjs.ics.refwallet.VyberActivity"
+    android:orientation="vertical"
+    style="@style/Pozadie">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/zoznam_zapasov"
+        android:id="@+id/buttonZoznam"
+        android:background="@android:drawable/alert_light_frame"
+        android:onClick="vyberZoznam" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stadiony"
+        android:id="@+id/buttonStadion"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:drawable/alert_light_frame"
+        android:onClick="vyberStadion" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/statistiky"
+        android:id="@+id/buttonStatistiky"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:drawable/alert_light_frame"
+        android:onClick="vyberStatistiky" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/urob_foto"
+        android:id="@+id/buttonFoto"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:drawable/alert_light_frame"
+        android:onClick="vyberFoto" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageViewRef"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ref" />
+</LinearLayout>

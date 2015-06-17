@@ -1,0 +1,279 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="sk.upjs.ics.refwallet.PridajZapasActivity"
+        android:orientation="vertical"
+       android:background="@drawable/ice"
+     android:weightSum="1">
+     st
+
+     <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView" >
+
+         <TableLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:stretchColumns="*">
+
+             <TableRow
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent">
+
+                 <EditText
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/editCZ"
+                     android:layout_column="0"
+                     android:hint="@string/cz"
+                     android:inputType="number" />
+
+                 <EditText
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/editLiga"
+                     android:layout_column="1"
+                     android:hint="@string/liga" />
+
+             </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <EditText
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/editDatum"
+                     android:hint="@string/datum"
+                     android:layout_column="0"
+                     android:inputType="datetime" />
+
+                 <EditText
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/editMiesto"
+                     android:layout_column="1"
+                     android:hint="@string/stadion" />
+             </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <EditText
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/editDomaci"
+                     android:hint="@string/domaci"
+                     android:layout_column="0"
+                     android:inputType="textPersonName" />
+
+                 <EditText
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/editHostia"
+                     android:layout_column="1"
+                     android:hint="@string/hostia"
+                     android:inputType="textPersonName" />
+             </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <EditText
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/editHR1"
+                     android:hint="@string/hr1"
+                     android:layout_column="0"
+                     android:inputType="textPersonName" />
+
+                 <EditText
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/editHR2"
+                     android:hint="@string/hr2"
+                     android:layout_column="1"
+                     android:inputType="textPersonName" />
+             </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <EditText
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/editCR1"
+                     android:hint="@string/cr1"
+                     android:layout_column="0"
+                     android:inputType="textPersonName" />
+
+                 <EditText
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/editCR2"
+                     android:hint="@string/cr2"
+                     android:layout_column="1"
+                     android:inputType="textPersonName" />
+             </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <EditText
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/editInstruktor"
+                     android:hint="@string/instr"
+                     android:layout_column="0"
+                     android:inputType="textPersonName" />
+
+                 <EditText
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/editVideo"
+                     android:hint="@string/video"
+                     android:layout_column="1"
+                     android:inputType="textPersonName" />
+             </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <EditText
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/editOdchod"
+                     android:hint="@string/odch"
+                     android:layout_column="0"
+                     android:inputType="time" />
+
+                 <EditText
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/editPrichod"
+                     android:hint="@string/prich"
+                     android:layout_column="1"
+                     android:inputType="time" />
+             </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <EditText
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/editZmesta"
+                     android:hint="@string/zmesta"
+                     android:layout_column="0" />
+
+                 <EditText
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/editDoMesta"
+                     android:hint="@string/domesta"
+                     android:layout_column="1" />
+             </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textAppearance="?android:attr/textAppearanceLarge"
+                     android:text="@string/pausal"
+                     android:id="@+id/textPausal"
+                     android:layout_column="0" />
+
+                 <EditText
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:id="@+id/editPausal"
+                     android:layout_column="1"
+                     android:hint="@string/zadaj"
+                     android:inputType="number" />
+
+             </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textAppearance="?android:attr/textAppearanceLarge"
+                     android:text="@string/stravne"
+                     android:id="@+id/textStravne"
+                     android:layout_column="0" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textAppearance="?android:attr/textAppearanceLarge"
+                     android:id="@+id/lblStravne"
+                     android:layout_column="1"
+                     android:hint="0,00" />
+
+             </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textAppearance="?android:attr/textAppearanceLarge"
+                     android:text="@string/cestovne"
+                     android:id="@+id/textKm"
+                     android:layout_column="0" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textAppearance="?android:attr/textAppearanceLarge"
+                     android:id="@+id/lblPocetKM"
+                     android:layout_column="1"
+                     android:hint="0,00" />
+
+             </TableRow>
+
+             <TableRow
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textAppearance="?android:attr/textAppearanceLarge"
+                     android:text="@string/spolu"
+                     android:id="@+id/textSpolu"
+                     android:layout_column="0" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textAppearance="?android:attr/textAppearanceLarge"
+                     android:id="@+id/lblSpolu"
+                     android:layout_column="1"
+                     android:hint="0,00" />
+
+             </TableRow>
+
+         </TableLayout>
+     </ScrollView>
+
+ </LinearLayout>

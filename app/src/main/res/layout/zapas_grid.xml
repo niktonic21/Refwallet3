@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TwoLineListItem xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:mode="twoLine"
+
+    >
+
+    <TextView
+        android:id="@+id/datumGridViewItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="?android:attr/listPreferredItemPaddingLeft"
+        android:layout_marginTop="8dip"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:background="@android:color/holo_blue_light" />
+
+    <TextView
+        android:id="@+id/czGridViewItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/datumGridViewItem"
+        android:layout_alignLeft="@+id/datumGridViewItem"
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        android:background="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="       :č. zápas"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/datumGridViewItem"
+        android:layout_centerHorizontal="true" />
+
+</TwoLineListItem>

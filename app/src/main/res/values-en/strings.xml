@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Ref wallet</string>
+
+    <string name="vitaj">Welcome in app for referee of SZĽH</string>
+    <string name="vstup">Enter</string>
+
+    <string name="zoznam_zapasov">List of matches</string>
+    <string name="stadiony">Find stadium</string>
+    <string name="statistiky">Stats</string>
+    <string name="urob_foto">Take a photo</string>
+
+    <string name="najdi_stad">Find stadium</string>
+    <string name="moja_poloha">Show my position</string>
+    <string name="odfot">TAKE PHOTO</string>
+
+    <string name="celkove_statis">All statistics         </string>
+    <string name="stravne_spolu">All food:</string>
+    <string name="cestovne_spolu">All travel:</string>
+    <string name="pausal_spolu">All fee:</string>
+    <string name="suma_spolu">All together:</string>
+    <string name="pocet_zap">Number of matches:</string>
+
+    <string name="cz">Num. match</string>
+    <string name="liga">League</string>
+    <string name="datum">Date</string>
+    <string name="stadion">Stadium</string>
+    <string name="domaci">Home</string>
+    <string name="hostia">Vistitor</string>
+    <string name="hr1">Ref1</string>
+    <string name="hr2">Ref2</string>
+    <string name="cr1">LM1</string>
+    <string name="cr2">LM2</string>
+    <string name="instr">Supervisor</string>
+    <string name="video">Goal R..</string>
+    <string name="odch">Time depar.</string>
+    <string name="prich">Time arri.</string>
+    <string name="zmesta">From city</string>
+    <string name="domesta">To city</string>
+    <string name="pausal">Fee</string>
+    <string name="stravne">Food</string>
+    <string name="cestovne">Way</string>
+    <string name="spolu">All</string>
+    <string name="zadaj">Set fee</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_vyber">Choose</string>
+    <string name="title_activity_zoznam">List of matches</string>
+    <string name="title_activity_stadion">Stadiums</string>
+    <string name="title_activity_statistiky">Stats</string>
+    <string name="title_activity_detail_zapas">Match detail</string>
+
+    <string name="title_activity_foto">Foto</string>
+    <string name="title_activity_foto_detail">Foto detail</string>
+    <string name="title_activity_take_photo">TakePhotoActivity</string>
+    <string name="title_activity_pridaj_zapas">Add match</string>
+    <string name="hello_blank_fragment">Hello</string>
+    <string name="hello_world">Hello</string>
+    <string name="title_activity_graf">Graph</string>
+</resources>
